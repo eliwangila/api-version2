@@ -3,7 +3,7 @@ SECRET_KEY = os.urandom(32)
 from dotenv import load_dotenv
 load_dotenv()
 class Config:
-    SECRET_KEY ='blindspot1'
+    SECRET_KEY='blindspot1'
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ekirapa:99405897@localhost/blog1'
     SQLALCHEMY_TRACK_MODIFICATIONS=True
     MAIL_SERVER = 'smtp.gmail.com'
