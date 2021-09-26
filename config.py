@@ -11,6 +11,6 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USE_SSL = False
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
-    MAIL_PASSWORD = '34730875'
+    MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     DEBUG = True

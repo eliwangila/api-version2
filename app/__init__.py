@@ -24,6 +24,7 @@ def create_app():
 
     app.register_blueprint(authentication_blueprint)
     app.register_blueprint(main_blueprint)
+    app.secret_key = 'password'
 
     login_manager.init_app(app)
     db.init_app(app)
