@@ -23,7 +23,7 @@
       display: none;
   }
   .cardquote{
-      background-color:rgba(116, 116, 116, 0.786);
+      /* background-color:rgba(116, 116, 116, 0.786); */
       padding: 3%;
   }
   #submit{
@@ -47,19 +47,19 @@
   .bg{
       background-color: rgba(255, 255, 255, 0.924);
       padding: 4px;
-      color: black;
+      /* color: black; */
       border-radius: 6px;
   }
   h1,h4{
     font-family: 'El Messiri', sans-serif;
   }
-  .black{
+  /* .black{
       color: black;
-  }
+  } */
 #modalComment{
     border-radius: 5px;
 }
 .singleblog{
     background-color: rgba(255, 255, 255, 0.924);  
-    color: black;
+    /* color: black; */
 }

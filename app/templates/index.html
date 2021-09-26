@@ -4,7 +4,7 @@
     <div class="container landing">
         <div class="row ">
                 {% if current_user.is_authenticated %}
-                <div class="col-md-3 "><a class="btn btn-sm btn-info " id="ref" href="{{url_for('main.new_blog')}}">Post</a></div>
+                <div class="col-md-3 "><a class="btn btn-sm btn-info " id="ref" href="{{url_for('main.new_blog')}}">Create a Post</a></div>
                 {% endif %}
             
             <div class="col-md-9 "><h1 >Welcome to Geekay Blog</h1></div>
@@ -17,7 +17,7 @@
                         <hr>
                         <div class="row ">
                             <div class="col-md-2 ">
-                                    <img class="rounded-circle blog-img mr-10" src="{{ url_for('static', filename='photos/' + blog.user.profile_pic_path) }}">
+                                    <!-- <img class="rounded-circle blog-img mr-10" src="{{ url_for('static', filename='photos/' + blog.user.profile_pic_path) }}"> -->
                                     <p id="usern"><a href="{{url_for('main.user_posts',username = blog.user.username)}}"><span  style="color: blue"><strong>{{blog.user.username | title}}</strong></span> </a> </p> 
                             </div>
                             <div class="col-md-10 pr-4 d-justify userblog">
@@ -50,7 +50,7 @@
                 <div class="container">
                     <div class="card cardquote">
                         <div class="card-title">
-                            <h4>A quote by: <span style="color: rgb(3, 3, 3)">{{quote.author}}</span> </h4>
+                            <h4>A quote by: <span style="color: rgb(90, 206, 61)">{{quote.author}}</span> </h4>
                         </div>
                         <p class="card-text">{{quote.quote}}</p>
                     </div>
