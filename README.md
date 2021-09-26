@@ -1,4 +1,4 @@
-<!-- # 
+# Personal Blog
 ## Author
 
 [eliwangila](https://github.com/eliwangila)
@@ -72,4 +72,4 @@ If you have any question or contributions, please email me at [ekirapaeli254@gma
 
 ## License
 * *MIT License:*
-* Copyright (c) 2021 **Eli Wangila** -->
+* Copyright (c) 2021 **Eli Wangila**
