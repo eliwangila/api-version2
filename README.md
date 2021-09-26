@@ -34,22 +34,31 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  
+  https://github.com/eliwangila/api-version2.git
   ```
-2. Move to the folder and install requirements
+2. Creating virtual environment:
   ```bash
-  cd 
+  pip install --user pipenv
+  ```
+3. Activate virtual environment:
+  ```bash
+  pipenv shell
+  ```
+
+4. Move to the folder and install requirements
+  ```bash
   pip install -r requirements.txt
   ```
-3. Exporting Configurations
+5. Exporting Configurations
   ```bash
   export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://{User Name}:{password}@localhost/{database name}
   ```
-4. Running the application
+7. Running the application
   ```bash
-  python manage.py server
+  python manage.py run
+  flask run
   ```
-5. Testing the application
+8. Testing the application
   ```bash
   python manage.py test
   ```
