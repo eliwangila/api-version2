@@ -37,7 +37,7 @@
       background-color: #315B96;
   }
   body{
-    color: white;
+    /* color: white; */
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -45,7 +45,7 @@
     font-family: 'Prompt', sans-serif;  
   }
   .bg{
-      background-color: rgba(255, 255, 255, 0.924);
+      /* background-color: rgba(255, 255, 255, 0.924); */
       padding: 4px;
       /* color: black; */
       border-radius: 6px;

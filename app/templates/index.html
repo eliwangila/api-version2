@@ -16,8 +16,7 @@
                     <div class="container bg mb-2">
                         <hr>
                         <div class="row ">
-                            <div class="col-md-2 ">
-                                    <!-- <img class="rounded-circle blog-img mr-10" src="{{ url_for('static', filename='photos/' + blog.user.profile_pic_path) }}"> -->
+                            <div class="col-md-2">
                                     <p id="usern"><a href="{{url_for('main.user_posts',username = blog.user.username)}}"><span  style="color: blue"><strong>{{blog.user.username | title}}</strong></span> </a> </p> 
                             </div>
                             <div class="col-md-10 pr-4 d-justify userblog">
